@@ -10,7 +10,8 @@ type Movie struct {
 	Rating string             `json:"rating" bson:"rating,omitempty"`
 	Genre  string             `json:"genre" bson:"genre,omitempty"`
 	Description string        `json:"description" bson:"description,omitempty"`
+	Time string               `json:"time" bson:"time,omitempty"`
 	Star   string             `json:"star" bson:"star,omitempty"`
-	Image  string             `json:"image" bson:"image,omitempty"`
+	Movie_Image  string       `json:"movie_image" bson:"movie_image,omitempty"`
 }
 
