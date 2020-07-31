@@ -1,1 +1,1 @@
-# go-rest-api
+# GO Rest API
